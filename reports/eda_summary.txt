@@ -1,0 +1,245 @@
+Shape: (6732548, 56)
+
+== Alvo ==
+                          count   count
+CLASSI_FIN                             
+Dengue                  4307513  0.6398
+Discarded/Inconclusive  2100029  0.3119
+Chikungunya              325000  0.0483
+CLASSI_FIN                    6  0.0000
+
+== Atributos constantes ==
+[]
+
+== Valores nulos (NaN) por coluna ==
+DT_NOTIFIC         6
+SEM_NOT            6
+NU_ANO             6
+SG_UF_NOT          6
+ID_MUNICIP         8
+ID_REGIONA         6
+ID_UNIDADE         6
+DT_SIN_PRI         9
+SEM_PRI           57
+DT_NASC       389576
+NU_IDADE_N         6
+CS_SEXO            6
+CS_GESTANT         6
+CS_RACA            6
+CS_ESCOL_N         6
+SG_UF              6
+ID_MN_RESI         6
+ID_RG_RESI         6
+ID_PAIS            6
+DT_INVEST       1634
+FEBRE              6
+MIALGIA            6
+CEFALEIA           6
+EXANTEMA           6
+VOMITO             6
+NAUSEA             6
+DOR_COSTAS         6
+CONJUNTVIT         6
+ARTRITE            6
+ARTRALGIA          6
+PETEQUIA_N         6
+LEUCOPENIA         6
+LACO               6
+DOR_RETRO          6
+DIABETES           6
+HEMATOLOG          6
+HEPATOPAT          6
+RENAL              6
+HIPERTENSA         6
+ACIDO_PEPT         6
+AUTO_IMUNE         6
+RESUL_SORO         6
+RESUL_NS1          6
+RESUL_VI_N         6
+RESUL_PCR_         6
+HISTOPA_N          6
+IMUNOH_N           6
+HOSPITALIZ         6
+TPAUTOCTO          6
+COUFINF            6
+COPAISINF          6
+COMUNINF           8
+EVOLUCAO           6
+DT_ENCERRA       596
+dtype: int64
+
+== Datas inválidas / fora de faixa ==
+DT_NOTIFIC min 2012-12-30 00:00:00 max 2021-01-02 00:00:00 NaT 6
+DT_SIN_PRI min 0201-01-05 00:00:00 max 2106-05-09 00:00:00 NaT 9
+DT_NASC min 1900-01-01 00:00:00 max 2020-12-28 00:00:00 NaT 389576
+DT_INVEST min 1916-02-26 00:00:00 max 2021-01-13 00:00:00 NaT 1634
+DT_ENCERRA min 0216-09-22 00:00:00 max 2021-02-18 00:00:00 NaT 596
+
+== Duplicatas exatas ==
+8751
+
+== Registros por ano ==
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+NU_ANO                                                 
+2012.0                0     282                      96
+2013.0                0  738776                  253471
+2014.0                0  269400                  160887
+2015.0              363  861341                  352197
+2016.0            69222  850956                  442515
+2017.0           113087  120753                  165829
+2018.0            50271  131691                  114509
+2019.0            69958  878249                  366398
+2020.0            22097  456043                  244090
+2021.0                2      22                      37
+
+== Idade (NU_IDADE_N) ==
+count    6.732542e+06
+mean     3.241043e+01
+std      1.840322e+01
+min      0.000000e+00
+25%      1.900000e+01
+50%      3.000000e+01
+75%      4.500000e+01
+max      9.990000e+02
+Name: NU_IDADE_N, dtype: float64
+idade<0: 0  idade>110: 8
+|idade calculada - NU_IDADE_N|>2: 286933
+
+== Intervalos entre datas (dias) ==
+DT_NOTIFIC-DT_SIN_PRI: {'min': -32871.0, '50%': 2.0, 'max': 664132.0} negativos: 270
+DT_INVEST-DT_NOTIFIC: {'min': -36525.0, '50%': 0.0, 'max': 1096.0} negativos: 1169
+DT_ENCERRA-DT_NOTIFIC: {'min': -657224.0, '50%': 36.0, 'max': 1096.0} negativos: 163
+
+== Distribuição de códigos (colunas com <=12 valores) ==
+NU_ANO {2016.0: 0.2024, 2019.0: 0.1953, 2015.0: 0.1803, 2013.0: 0.1474, 2020.0: 0.1073, 2014.0: 0.0639, 2017.0: 0.0594, 2018.0: 0.044, 2012.0: 0.0001, 2021.0: 0.0, nan: 0.0}
+CS_SEXO {0.0: 0.5542, 1.0: 0.4443, 2.0: 0.0014, 9.0: 0.0, nan: 0.0}
+CS_GESTANT {6.0: 0.6171, 5.0: 0.2679, 9.0: 0.1071, 2.0: 0.0026, 3.0: 0.0021, 1.0: 0.002, 4.0: 0.0012, nan: 0.0}
+CS_RACA {9.0: 0.3427, 4.0: 0.3382, 1.0: 0.2734, 2.0: 0.0362, 3.0: 0.0072, 5.0: 0.0023, nan: 0.0}
+CS_ESCOL_N {9.0: 0.5751, 6.0: 0.1114, 10.0: 0.0698, 3.0: 0.0595, 5.0: 0.051, 4.0: 0.0343, 1.0: 0.0335, 8.0: 0.0245, 2.0: 0.0203, 7.0: 0.015, 0.0: 0.0056, nan: 0.0}
+FEBRE {9.0: 0.5241, 1.0: 0.3725, 2.0: 0.1034, nan: 0.0}
+MIALGIA {9.0: 0.5241, 1.0: 0.3401, 2.0: 0.1358, nan: 0.0}
+CEFALEIA {9.0: 0.5241, 1.0: 0.3454, 2.0: 0.1305, nan: 0.0}
+EXANTEMA {9.0: 0.5241, 2.0: 0.3836, 1.0: 0.0922, nan: 0.0}
+VOMITO {9.0: 0.5241, 2.0: 0.3819, 1.0: 0.094, nan: 0.0}
+NAUSEA {9.0: 0.5241, 2.0: 0.3335, 1.0: 0.1424, nan: 0.0}
+DOR_COSTAS {9.0: 0.5241, 2.0: 0.3638, 1.0: 0.1121, nan: 0.0}
+CONJUNTVIT {9.0: 0.5241, 2.0: 0.4624, 1.0: 0.0134, nan: 0.0}
+ARTRITE {9.0: 0.5241, 2.0: 0.4331, 1.0: 0.0428, nan: 0.0}
+ARTRALGIA {9.0: 0.5241, 2.0: 0.3815, 1.0: 0.0944, nan: 0.0}
+PETEQUIA_N {9.0: 0.5241, 2.0: 0.4393, 1.0: 0.0366, nan: 0.0}
+LEUCOPENIA {9.0: 0.5241, 2.0: 0.4557, 1.0: 0.0202, nan: 0.0}
+LACO {9.0: 0.5241, 2.0: 0.4581, 1.0: 0.0178, nan: 0.0}
+DOR_RETRO {9.0: 0.5241, 2.0: 0.333, 1.0: 0.1429, nan: 0.0}
+DIABETES {9.0: 0.5241, 2.0: 0.4664, 1.0: 0.0095, nan: 0.0}
+HEMATOLOG {9.0: 0.5241, 2.0: 0.474, 1.0: 0.0019, nan: 0.0}
+HEPATOPAT {9.0: 0.5241, 2.0: 0.4739, 1.0: 0.002, nan: 0.0}
+RENAL {9.0: 0.5241, 2.0: 0.4742, 1.0: 0.0017, nan: 0.0}
+HIPERTENSA {9.0: 0.5241, 2.0: 0.4526, 1.0: 0.0233, nan: 0.0}
+ACIDO_PEPT {9.0: 0.5241, 2.0: 0.4737, 1.0: 0.0022, nan: 0.0}
+AUTO_IMUNE {9.0: 0.5241, 2.0: 0.4742, 1.0: 0.0017, nan: 0.0}
+RESUL_SORO {4.0: 0.9864, 2.0: 0.0073, 1.0: 0.0043, 3.0: 0.002, nan: 0.0}
+RESUL_NS1 {4.0: 0.976, 2.0: 0.0204, 1.0: 0.0032, 3.0: 0.0004, nan: 0.0}
+RESUL_VI_N {4.0: 0.9994, 2.0: 0.0004, 3.0: 0.0001, 1.0: 0.0, nan: 0.0}
+RESUL_PCR_ {4.0: 0.999, 2.0: 0.0007, 3.0: 0.0002, 1.0: 0.0001, nan: 0.0}
+HISTOPA_N {4.0: 0.9995, 2.0: 0.0002, 3.0: 0.0001, 1.0: 0.0001, nan: 0.0}
+IMUNOH_N {4.0: 0.9993, 3.0: 0.0003, 2.0: 0.0003, 1.0: 0.0001, nan: 0.0}
+HOSPITALIZ {2.0: 0.545, 9.0: 0.4352, 1.0: 0.0197, nan: 0.0}
+TPAUTOCTO {1.0: 0.51, 9.0: 0.4416, 3.0: 0.0348, 2.0: 0.0135, nan: 0.0}
+EVOLUCAO {1.0: 0.9067, 9.0: 0.0928, 3.0: 0.0003, 2.0: 0.0001, 4.0: 0.0, nan: 0.0}
+
+== Cardinalidade das colunas geográficas ==
+{'SG_UF_NOT': 27, 'ID_MUNICIP': 4667, 'ID_REGIONA': 342, 'ID_UNIDADE': 39231, 'SG_UF': 28, 'ID_MN_RESI': 4886, 'ID_RG_RESI': 344, 'COUFINF': 28, 'COMUNINF': 4399}
+
+== Taxa de 'ignorado' (9) nos sintomas/comorbidades por classe ==
+CLASSI_FIN  CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+FEBRE              0.0          1.0   0.511                   0.478
+MIALGIA            0.0          1.0   0.511                   0.478
+CEFALEIA           0.0          1.0   0.511                   0.478
+EXANTEMA           0.0          1.0   0.511                   0.478
+VOMITO             0.0          1.0   0.511                   0.478
+NAUSEA             0.0          1.0   0.511                   0.478
+DOR_COSTAS         0.0          1.0   0.511                   0.478
+CONJUNTVIT         0.0          1.0   0.511                   0.478
+ARTRITE            0.0          1.0   0.511                   0.478
+ARTRALGIA          0.0          1.0   0.511                   0.478
+PETEQUIA_N         0.0          1.0   0.511                   0.478
+LEUCOPENIA         0.0          1.0   0.511                   0.478
+LACO               0.0          1.0   0.511                   0.478
+DOR_RETRO          0.0          1.0   0.511                   0.478
+DIABETES           0.0          1.0   0.511                   0.478
+HEMATOLOG          0.0          1.0   0.511                   0.478
+HEPATOPAT          0.0          1.0   0.511                   0.478
+RENAL              0.0          1.0   0.511                   0.478
+HIPERTENSA         0.0          1.0   0.511                   0.478
+ACIDO_PEPT         0.0          1.0   0.511                   0.478
+AUTO_IMUNE         0.0          1.0   0.511                   0.478
+
+Valores de FEBRE: {9.0: 3528653, 1.0: 2508024, 2.0: 695865}
+
+== Resultados laboratoriais (4 = não realizado?) por classe ==
+RESUL_SORO
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+RESUL_SORO                                             
+1.0                 0.0   0.006                   0.001
+2.0                 0.0   0.005                   0.014
+3.0                 0.0   0.002                   0.003
+4.0                 1.0   0.988                   0.982
+RESUL_NS1
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+RESUL_NS1                                              
+1.0                 0.0   0.005                   0.001
+2.0                 0.0   0.012                   0.041
+3.0                 0.0   0.000                   0.000
+4.0                 1.0   0.983                   0.958
+RESUL_VI_N
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+RESUL_VI_N                                             
+1.0                 0.0   0.000                   0.000
+2.0                 0.0   0.000                   0.000
+3.0                 0.0   0.000                   0.000
+4.0                 1.0   0.999                   0.999
+RESUL_PCR_
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+RESUL_PCR_                                             
+1.0                 0.0   0.000                   0.000
+2.0                 0.0   0.001                   0.001
+3.0                 0.0   0.000                   0.000
+4.0                 1.0   0.999                   0.999
+HISTOPA_N
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+HISTOPA_N                                              
+1.0                 0.0     0.0                   0.000
+2.0                 0.0     0.0                   0.000
+3.0                 0.0     0.0                   0.000
+4.0                 1.0     1.0                   0.999
+IMUNOH_N
+CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+IMUNOH_N                                               
+1.0                 0.0   0.000                   0.000
+2.0                 0.0   0.000                   0.000
+3.0                 0.0   0.000                   0.000
+4.0                 1.0   0.999                   0.999
+
+== Prevalência de sintomas (==1) por classe ==
+CLASSI_FIN  CLASSI_FIN  Chikungunya  Dengue  Discarded/Inconclusive
+FEBRE              0.0          0.0   0.398                   0.378
+MIALGIA            0.0          0.0   0.370                   0.330
+CEFALEIA           0.0          0.0   0.374                   0.340
+EXANTEMA           0.0          0.0   0.108                   0.073
+VOMITO             0.0          0.0   0.102                   0.093
+NAUSEA             0.0          0.0   0.160                   0.127
+DOR_COSTAS         0.0          0.0   0.127                   0.099
+CONJUNTVIT         0.0          0.0   0.015                   0.012
+ARTRITE            0.0          0.0   0.050                   0.035
+ARTRALGIA          0.0          0.0   0.105                   0.088
+PETEQUIA_N         0.0          0.0   0.043                   0.028
+LEUCOPENIA         0.0          0.0   0.025                   0.013
+LACO               0.0          0.0   0.023                   0.011
+DOR_RETRO          0.0          0.0   0.170                   0.110
+DIABETES           0.0          0.0   0.010                   0.009
+HEMATOLOG          0.0          0.0   0.002                   0.002
+HEPATOPAT          0.0          0.0   0.002                   0.002
+RENAL              0.0          0.0   0.002                   0.002
+HIPERTENSA         0.0          0.0   0.026                   0.021
+ACIDO_PEPT         0.0          0.0   0.002                   0.002
+AUTO_IMUNE         0.0          0.0   0.002                   0.002

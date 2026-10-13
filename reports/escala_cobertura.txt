@@ -1,0 +1,153 @@
+=== 1. COBERTURA (bruto, 2013-2020) ===
+Linhas: 6732103
+       col  NaN_%  ignorado/nao_realizado_%  info_util_%
+ HISTOPA_N   0.00                     99.95         0.05
+RESUL_VI_N   0.00                     99.94         0.06
+  IMUNOH_N   0.00                     99.93         0.07
+RESUL_PCR_   0.00                     99.90         0.10
+RESUL_SORO   0.00                     98.64         1.36
+ RESUL_NS1   0.00                     97.60         2.40
+CS_ESCOL_N   0.00                     64.49        35.51
+     FEBRE   0.00                     52.41        47.59
+ TPAUTOCTO   0.00                     44.16        55.84
+HOSPITALIZ   0.00                     43.52        56.48
+   CS_RACA   0.00                     34.27        65.73
+CS_GESTANT   0.00                     10.71        89.29
+  EVOLUCAO   0.00                      9.28        90.72
+   DT_NASC   5.79                      0.00        94.21
+ DT_INVEST   0.02                      0.00        99.98
+DT_ENCERRA   0.01                      0.00        99.99
+   COUFINF   0.00                      0.00       100.00
+AUTO_IMUNE   0.00                      0.00       100.00
+ACIDO_PEPT   0.00                      0.00       100.00
+HIPERTENSA   0.00                      0.00       100.00
+ COPAISINF   0.00                      0.00       100.00
+  COMUNINF   0.00                      0.00       100.00
+     RENAL   0.00                      0.00       100.00
+ HEPATOPAT   0.00                      0.00       100.00
+ HEMATOLOG   0.00                      0.00       100.00
+  DIABETES   0.00                      0.00       100.00
+ DOR_RETRO   0.00                      0.00       100.00
+CLASSI_FIN   0.00                      0.00       100.00
+      LACO   0.00                      0.00       100.00
+LEUCOPENIA   0.00                      0.00       100.00
+PETEQUIA_N   0.00                      0.00       100.00
+ ID_AGRAVO   0.00                      0.00       100.00
+   ARTRITE   0.00                      0.00       100.00
+DT_NOTIFIC   0.00                      0.00       100.00
+   SEM_NOT   0.00                      0.00       100.00
+    NU_ANO   0.00                      0.00       100.00
+ SG_UF_NOT   0.00                      0.00       100.00
+ID_MUNICIP   0.00                      0.00       100.00
+ID_REGIONA   0.00                      0.00       100.00
+ID_UNIDADE   0.00                      0.00       100.00
+DT_SIN_PRI   0.00                      0.00       100.00
+   SEM_PRI   0.00                      0.00       100.00
+NU_IDADE_N   0.00                      0.00       100.00
+   CS_SEXO   0.00                      0.00       100.00
+     SG_UF   0.00                      0.00       100.00
+ID_MN_RESI   0.00                      0.00       100.00
+ID_RG_RESI   0.00                      0.00       100.00
+   ID_PAIS   0.00                      0.00       100.00
+   MIALGIA   0.00                      0.00       100.00
+  CEFALEIA   0.00                      0.00       100.00
+  EXANTEMA   0.00                      0.00       100.00
+    VOMITO   0.00                      0.00       100.00
+    NAUSEA   0.00                      0.00       100.00
+CONJUNTVIT   0.00                      0.00       100.00
+ ARTRALGIA   0.00                      0.00       100.00
+DOR_COSTAS   0.00                      0.00       100.00
+
+=== 2. GRANDEZAS (bruto, colunas numéricas) ===
+                min        max        mean         std  amplitude
+ID_UNIDADE      9.0  9999999.0  3207249.14  2406769.70  9999990.0
+ID_MUNICIP      9.0   613592.0   337844.36    90912.10   613583.0
+COMUNINF        9.0   539934.0   181096.63   187473.51   539925.0
+ID_MN_RESI  35050.0   539927.0   337835.95    90907.72   504877.0
+SEM_PRI      1352.0   202053.0   201645.89     1119.15   200701.0
+SEM_NOT      1401.0   202053.0   201653.60     1011.91   200652.0
+ID_RG_RESI      9.0     6262.0     1437.13      706.10     6253.0
+ID_REGIONA      9.0     6256.0     1436.21      704.50     6247.0
+NU_IDADE_N      0.0      999.0       32.41       18.40      999.0
+COPAISINF       0.0      175.0        4.86        4.01      175.0
+SG_UF           9.0       53.0       33.61        9.09       44.0
+COUFINF         9.0       53.0       22.43       14.54       44.0
+SG_UF_NOT      11.0       53.0       33.61        9.09       42.0
+CS_ESCOL_N      0.0       10.0        7.49        2.51       10.0
+CS_SEXO         0.0        9.0        0.45        0.50        9.0
+RENAL           1.0        9.0        5.67        3.50        8.0
+DOR_RETRO       1.0        9.0        5.53        3.66        8.0
+DIABETES        1.0        9.0        5.66        3.51        8.0
+HEMATOLOG       1.0        9.0        5.67        3.50        8.0
+HEPATOPAT       1.0        9.0        5.67        3.50        8.0
+TPAUTOCTO       1.0        9.0        4.62        3.92        8.0
+HIPERTENSA      1.0        9.0        5.65        3.52        8.0
+ACIDO_PEPT      1.0        9.0        5.67        3.50        8.0
+AUTO_IMUNE      1.0        9.0        5.67        3.50        8.0
+HOSPITALIZ      1.0        9.0        5.03        3.49        8.0
+LEUCOPENIA      1.0        9.0        5.65        3.52        8.0
+LACO            1.0        9.0        5.65        3.52        8.0
+ARTRITE         1.0        9.0        5.63        3.55        8.0
+PETEQUIA_N      1.0        9.0        5.63        3.54        8.0
+CEFALEIA        1.0        9.0        5.32        3.87        8.0
+CS_GESTANT      1.0        9.0        6.02        1.16        8.0
+CS_RACA         1.0        9.0        4.82        3.24        8.0
+ID_PAIS         1.0        9.0        1.00        0.01        8.0
+FEBRE           1.0        9.0        5.30        3.90        8.0
+MIALGIA         1.0        9.0        5.33        3.87        8.0
+ARTRALGIA       1.0        9.0        5.57        3.61        8.0
+EVOLUCAO        1.0        9.0        1.74        2.32        8.0
+EXANTEMA        1.0        9.0        5.58        3.60        8.0
+VOMITO          1.0        9.0        5.57        3.61        8.0
+NAUSEA          1.0        9.0        5.53        3.66        8.0
+DOR_COSTAS      1.0        9.0        5.56        3.63        8.0
+CONJUNTVIT      1.0        9.0        5.66        3.51        8.0
+NU_ANO       2013.0     2020.0     2016.41        2.30        7.0
+RESUL_SORO      1.0        4.0        3.97        0.26        3.0
+RESUL_VI_N      1.0        4.0        4.00        0.05        3.0
+RESUL_PCR_      1.0        4.0        4.00        0.06        3.0
+HISTOPA_N       1.0        4.0        4.00        0.04        3.0
+IMUNOH_N        1.0        4.0        4.00        0.05        3.0
+RESUL_NS1       1.0        4.0        3.95        0.33        3.0
+
+Razão maior/menor desvio-padrão (bruto): 170337756.2
+
+=== 3. CENÁRIO binario: desvio-padrão e amplitude por variante (treino) ===
+[tree - sem escala] colunas com amplitude > 1:
+                    min   max     std
+idade               0.0  99.0  18.511
+dias_sintoma_notif  0.0  30.0   3.924
+mes_sin            -1.0   1.0   0.547
+mes_cos            -1.0   1.0   0.628
+razão max(std)/min(std) entre colunas não constantes:
+  tree   :    528.1   (maior std: idade=18.511; menor: sexo_ign=0.0351)
+  std    :     28.5   (maior std: idade=1.000; menor: sexo_ign=0.0351)
+  minmax :     17.9   (maior std: mes_cos=0.628; menor: sexo_ign=0.0351)
+[std] contínuas:
+                      min    max  std
+idade              -1.753  3.596  1.0
+dias_sintoma_notif -0.863  6.783  1.0
+[minmax] contínuas:
+                    min  max    std
+idade               0.0  1.0  0.187
+dias_sintoma_notif  0.0  1.0  0.131
+
+=== 3. CENÁRIO multiclasse: desvio-padrão e amplitude por variante (treino) ===
+[tree - sem escala] colunas com amplitude > 1:
+                    min   max     std
+idade               0.0  99.0  18.382
+dias_sintoma_notif  0.0  30.0   4.007
+mes_sin            -1.0   1.0   0.538
+mes_cos            -1.0   1.0   0.622
+razão max(std)/min(std) entre colunas não constantes:
+  tree   :    484.6   (maior std: idade=18.382; menor: sexo_ign=0.0379)
+  std    :     26.4   (maior std: dias_sintoma_notif=1.000; menor: sexo_ign=0.0379)
+  minmax :     16.4   (maior std: mes_cos=0.622; menor: sexo_ign=0.0379)
+[std] contínuas:
+                      min    max  std
+idade              -1.763  3.623  1.0
+dias_sintoma_notif -0.848  6.638  1.0
+[minmax] contínuas:
+                    min  max    std
+idade               0.0  1.0  0.186
+dias_sintoma_notif  0.0  1.0  0.134
